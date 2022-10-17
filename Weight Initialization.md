@@ -38,13 +38,13 @@ sigmoid함수는 input의 절대값이 조금이라도 커지게 되면 미분�
 
 - LeCun Normal Initialization
 
-![스크린샷 2022-10-14 오후 2.38.15.png](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.38.15.png)
+![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.38.15.png)
 
 (n_in : 이전 layer(input)의 노드 수)
 
 - LeCun Uniform Initialization
 
-![스크린샷 2022-10-14 오후 2.38.57.png](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.38.57.png)
+![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.38.57.png)
 
 (n_in : 이전 layer(input)의 노드 수)
 
@@ -58,13 +58,13 @@ Xavier Initialization 혹은 Glorot Initialization라고도 불리는 초기화 
 
 - Xavier Normal Initialization
 
-![스크린샷 2022-10-14 오후 2.40.15.png](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.40.15.png)
+![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.40.15.png)
 
 (n_in : 이전 layer(input)의 노드 수, n_out : 다음 layer의 노드 수)
 
 - Xavier Uniform Initialization
 
-![스크린샷 2022-10-14 오후 2.41.19.png](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.41.19.png)
+![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.41.19.png)
 
 (n_in : 이전 layer(input)의 노드 수, n_out : 다음 layer의 노드 수)
 
@@ -76,13 +76,13 @@ ReLU를 활성화 함수로 사용 시 Xavier 초기값 설정이 비효율적�
 
 - He Normal Initialization
 
-![스크린샷 2022-10-14 오후 2.42.47.png](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.42.47.png)
+![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.42.47.png)
 
 (n_in : 이전 layer(input)의 노드 수)
 
 - He Uniform Initialization
 
-![스크린샷 2022-10-14 오후 2.42.58.png](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.42.58.png)
+![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.42.58.png)
 
 (n_in : 이전 layer(input)의 노드 수)
 
@@ -106,3 +106,6 @@ ReLU를 활성화 함수로 사용 시 Xavier 초기값 설정이 비효율적�
 > 
 
 따라서 Deep CNN의 경우 보통의 Gaussian 초기화 방법을 사용해 볼 수 있다.하지만 여러 초기화 방법들을 테스트하며 사용하는 것이 가장 좋은 방법일 것이다.
+
+
+참조: https://t1.daumcdn.net/cfile/tistory/993C01365AB6262903
