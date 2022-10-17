@@ -38,13 +38,13 @@ sigmoid함수는 input의 절대값이 조금이라도 커지게 되면 미분�
 
 - LeCun Normal Initialization
 
-![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.38.15.png)
+$$W \sim N(0,Var(W)), Var(W)=\sqrt{1\over{n_{in}}}$$
 
 (n_in : 이전 layer(input)의 노드 수)
 
 - LeCun Uniform Initialization
 
-![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.38.57.png)
+$$W \sim U(- \sqrt{1\over{n_{in}}} ,+ \sqrt{1\over{n_{in}}})$$
 
 (n_in : 이전 layer(input)의 노드 수)
 
@@ -58,13 +58,13 @@ Xavier Initialization 혹은 Glorot Initialization라고도 불리는 초기화 
 
 - Xavier Normal Initialization
 
-![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.40.15.png)
+$$W \sim N(0,Var(W)), Var(W)=\sqrt{2\over{n_{in}+n_{out}}}$$
 
 (n_in : 이전 layer(input)의 노드 수, n_out : 다음 layer의 노드 수)
 
 - Xavier Uniform Initialization
 
-![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.41.19.png)
+$$W \sim U(- \sqrt{6\over{n_{in}+n_{out}}} ,+ \sqrt{6\over{n_{in}+n_{out}}})$$
 
 (n_in : 이전 layer(input)의 노드 수, n_out : 다음 layer의 노드 수)
 
@@ -76,13 +76,13 @@ ReLU를 활성화 함수로 사용 시 Xavier 초기값 설정이 비효율적�
 
 - He Normal Initialization
 
-![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.42.47.png)
+$$W \sim N(0,Var(W)), Var(W)=\sqrt{2\over{n_{in}}}$$
 
 (n_in : 이전 layer(input)의 노드 수)
 
 - He Uniform Initialization
 
-![img](Weight%20Initialization%2035a19ac402fc4e769a26f81a165bcdb6/%25EC%258A%25A4%25ED%2581%25AC%25EB%25A6%25B0%25EC%2583%25B7_2022-10-14_%25EC%2598%25A4%25ED%259B%2584_2.42.58.png)
+$$W \sim U(- \sqrt{6\over{n_{in}}} ,+ \sqrt{6\over{n_{in}}})$$
 
 (n_in : 이전 layer(input)의 노드 수)
 
