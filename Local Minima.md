@@ -39,18 +39,6 @@
     - **RMSprop :** G부분을 합이 아닌 지수평균으로 바꾸어 Adagrad를 보완
     - **Adam :** G의 지수평균을 저장(Momentum)+ G의 제곱값의 지수평균을 저장(RMSProp)
 
-![Momentum](Local%20Minima%207a1fd6bab40145f486444aaf57f773a3/Untitled.png)
-
-Momentum
-
-![Adagrad](https://github.com/boostcamp-ai-tech-4/ai-tech-interview/blob/main/answers/img/3-deep-learning/adagrad.png?raw=true)
-
-Adagrad
-
-![Adadelta](https://github.com/boostcamp-ai-tech-4/ai-tech-interview/blob/main/answers/img/3-deep-learning/adadelta.png?raw=true)
-
-Adadelta
-
 - 찾은 해가 Global Minimum인지 아닌지 알 수 있는 방법은?
     - GD의 경우, gloabl minima 도달이 보장되어 있지 않다.
     - 고차원의 경우, local minima가 드물기 때문에 local minima로 의심된다면 global minima일 가능성이 높다.
