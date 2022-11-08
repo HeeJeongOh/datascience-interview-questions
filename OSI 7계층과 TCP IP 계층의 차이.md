@@ -15,8 +15,6 @@
 - TCP/IP는 인터넷 개발 이후 꾸준히 표준화되고 구현되어 신뢰성이 높지만, OSI는 실질적으로 구현되는 경우가 거의 없다.
 - OSI로 장비 개발과 통신 자체를 어떻게 표준으로 잡을지 설계한 뒤, 실제 통신은 TCP/IP 프로토콜을 사용한다.
 
----
-
 ![https://user-images.githubusercontent.com/76675506/197695376-9ceafde4-f6d7-4217-96c5-531c4f349bdf.png](https://user-images.githubusercontent.com/76675506/197695376-9ceafde4-f6d7-4217-96c5-531c4f349bdf.png)
 
 - **OSI 7 계층:** 기존 TCP/IP 계층의 애플리케이션(응용) 레이어를 더 세분화한 계층
